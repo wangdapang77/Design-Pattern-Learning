@@ -37,6 +37,11 @@
 ```
 Design-Pattern-Learning/
 ├── Chapter01_SimpleFactoryPattern（简单工厂模式）
+│   ├── Product                                     产品接口
+│   ├── ProductA                                    具体产品A（实现产品接口）
+│   ├── ProductB                                    具体产品B（实现产品接口）
+│   ├── ProductC                                    具体产品C（实现产品接口）
+│   └── ProductFactory                              创建产品工厂
 ├── Chapter02_AbstractFactoryPattern（抽象工厂模式）
 ├── Chapter03_FactoryMethodPattern（工厂方法模式）
 ├── Chapter04_BuilderPattern（建造者模式）

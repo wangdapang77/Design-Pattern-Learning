@@ -2,6 +2,8 @@ package com.sedion.mynawang;
 
 import com.sedion.mynawang.Chapter01_SimpleFactoryPattern.ProductFactory;
 
+import java.text.DateFormat;
+
 /**
  * 简单工厂模式测试
  * @auther mynawang
