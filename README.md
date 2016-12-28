@@ -47,7 +47,7 @@ Design-Pattern-Learning/
 
 ### 技术交流
 
-博客地址：[http://mynawang.top][1]
+博客地址：[http://mynawang.com][1]
 
 QQ群：专注的程序猿 282087535 [立即加入][2]
 
