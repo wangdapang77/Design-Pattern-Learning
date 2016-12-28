@@ -4,6 +4,7 @@ package com.sedion.mynawang;
 import com.sedion.mynawang.Chapter05_SingletonPattern.*;
 
 /**
+ * 单例模式测试
  * @auther mynawang
  * @create 2016-12-28 14:23
  */

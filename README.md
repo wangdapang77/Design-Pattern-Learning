@@ -41,6 +41,12 @@ Design-Pattern-Learning/
 ├── Chapter03_FactoryMethodPattern（工厂方法模式）
 ├── Chapter04_BuilderPattern（建造者模式）
 ├── Chapter05-SingletonPattern（单例模式）
+│   ├── SingletonLazy                               懒汉式（线程不安全、懒加载）
+│   ├── SingletonLazySynch                          懒汉式（线程安全、懒加载）
+│   ├── SingletonHungry                             饿汉式（线程安全、非懒加载）
+│   ├── SingletonDoubleChecked                      双重校验锁（double-checked locking）（线程安全、懒加载、JDK1.5以后）
+│   ├── SingletonRegistration                       登记式（线程安全、懒加载）
+│   └── SingletonEnum                               枚举（线程安全、懒加载、JDK1.5之后）
 ├── Chapter06_PrototypePattern（原型模式）
 ```
 
