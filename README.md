@@ -43,6 +43,18 @@ Design-Pattern-Learning/
 │   ├── ProductC                                    具体产品C（实现产品接口）
 │   └── ProductFactory                              创建产品工厂
 ├── Chapter02_AbstractFactoryPattern（抽象工厂模式）
+│   ├── ProductA_Phone                              产品A接口
+│   ├── ProductB_Computer                           产品B接口
+│   ├── ConcreteProductA1_Iphone                    具体A类产品A1（实现产品A接口）
+│   ├── ConcreteProductA2_Lenove                    具体A类产品A2（实现产品A接口）
+│   ├── ConcreteProductA3_Xiaomi                    具体A类产品A3（实现产品A接口）
+│   ├── ConcreteProductB1_MacBook                   具体B类产品B1（实现产品B接口）
+│   ├── ConcreteProductB2_ThinkPad                  具体B类产品B2（实现产品B接口）
+│   ├── ConcreteProductB3_XiaomiAir                 具体B类产品B3（实现产品B接口）
+│   ├── Factory                                     工厂接口
+│   ├── Factory1_Apple                              具体Apple族工厂
+│   ├── Factory2_Lenove                             具体Lenove族工厂
+│   └── Factory3_Xiaomi                             具体Xiaomi族工厂
 ├── Chapter03_FactoryMethodPattern（工厂方法模式）
 ├── Chapter04_BuilderPattern（建造者模式）
 ├── Chapter05-SingletonPattern（单例模式）

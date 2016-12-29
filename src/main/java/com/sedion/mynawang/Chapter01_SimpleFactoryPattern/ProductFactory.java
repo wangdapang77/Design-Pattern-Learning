@@ -16,15 +16,15 @@ public class ProductFactory {
         Product product = null;
         if ("proA".equals(productType)) {
             product = new ProductA();
-            logger.info("简单工厂==》创建了ProductA");
+            logger.info("简单工厂==> 创建了ProductA");
         } else if ("proB".equals(productType)) {
             product = new ProductB();
-            logger.info("简单工厂==》创建了ProductB");
+            logger.info("简单工厂=> 创建了ProductB");
         } else if ("proC".equals(productType)) {
             product = new ProductC();
-            logger.info("简单工厂==》创建了ProductC");
+            logger.info("简单工厂==> 创建了ProductC");
         } else {
-            logger.info("简单工厂==》没有这样的产品");
+            logger.info("简单工厂==> 没有这样的产品");
         }
         return product;
     }
