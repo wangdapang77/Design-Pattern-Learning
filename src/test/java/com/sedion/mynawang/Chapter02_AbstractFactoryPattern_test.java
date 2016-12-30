@@ -3,6 +3,7 @@ package com.sedion.mynawang;
 import com.sedion.mynawang.Chapter02_AbstractFactoryPattern.*;
 
 /**
+ * 抽象工厂模式测试
  * @auther mynawang
  * @create 2016-12-29 11:02
  */

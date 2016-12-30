@@ -56,6 +56,14 @@ Design-Pattern-Learning/
 │   ├── Factory2_Lenove                             具体Lenove族工厂
 │   └── Factory3_Xiaomi                             具体Xiaomi族工厂
 ├── Chapter03_FactoryMethodPattern（工厂方法模式）
+│   ├── Product                                     产品接口
+│   ├── ConcreteProductA1                           具体产品A1（实现产品接口）
+│   ├── ConcreteProductA2                           具体产品A2（实现产品接口）
+│   ├── ConcreteProductA3                           具体产品A3（实现产品接口）
+│   ├── Factory                                     工厂接口
+│   ├── ProductFactoryA1                            具体产品A1工厂
+│   ├── ProductFactoryA2                            具体产品A2工厂
+│   └── ProductFactoryA3                            具体产品A3工厂
 ├── Chapter04_BuilderPattern（建造者模式）
 ├── Chapter05-SingletonPattern（单例模式）
 │   ├── SingletonLazy                               懒汉式（线程不安全、懒加载）

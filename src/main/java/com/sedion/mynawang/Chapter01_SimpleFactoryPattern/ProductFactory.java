@@ -15,13 +15,13 @@ public class ProductFactory {
     public static Product creatProduct(String productType) {
         Product product = null;
         if ("proA".equals(productType)) {
-            product = new ProductA();
+            product = new ConcreteProductA();
             logger.info("简单工厂==> 创建了ProductA");
         } else if ("proB".equals(productType)) {
-            product = new ProductB();
+            product = new ConcreteProductB();
             logger.info("简单工厂=> 创建了ProductB");
         } else if ("proC".equals(productType)) {
-            product = new ProductC();
+            product = new ConcreteProductC();
             logger.info("简单工厂==> 创建了ProductC");
         } else {
             logger.info("简单工厂==> 没有这样的产品");
