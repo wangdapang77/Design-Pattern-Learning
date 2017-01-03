@@ -77,6 +77,22 @@ Design-Pattern-Learning/
 │   ├── SingletonRegistration                       登记式（线程安全、懒加载）
 │   └── SingletonEnum                               枚举（线程安全、懒加载、JDK1.5之后）
 ├── Chapter06_PrototypePattern（原型模式）
+│   ├── ConcretePrototypeA                          具体原型A
+│   ├── ConcretePrototypeB                          具体原型B
+│   └── Prototype                                   原型接口
+│   ├── ShallowClone（浅克隆）
+│   │   ├── Father                                  引用类     
+│   │   └── Person                                  原型类
+│   ├── DeepClone（深克隆）
+│   │   ├── Father                                  引用类     
+│   │   └── Person                                  原型类
+├── Chapter07_AdapterPattern（适配器模式）
+├── Chapter08_DecoratorPattern（装饰模式）
+├── Chapter09_ProxyPattern（代理模式）
+├── Chapter10_BridgePattern（桥接模式）
+├── Chapter11_FacadePattern（外观模式）
+├── Chapter12_FlyweightPattern（享元模式）
+├── Chapter13_CompositePattern（组合模式）
 ```
 
 
