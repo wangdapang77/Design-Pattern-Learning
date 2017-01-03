@@ -65,6 +65,10 @@ Design-Pattern-Learning/
 │   ├── ProductFactoryA2                            具体产品A2工厂
 │   └── ProductFactoryA3                            具体产品A3工厂
 ├── Chapter04_BuilderPattern（建造者模式）
+│   ├── Builder                                     建造者接口
+│   ├── ConcreteBuilder                             具体建造者
+│   ├── Director                                    指挥者
+│   └── Product                                     具体产品
 ├── Chapter05-SingletonPattern（单例模式）
 │   ├── SingletonLazy                               懒汉式（线程不安全、懒加载）
 │   ├── SingletonLazySynch                          懒汉式（线程安全、懒加载）

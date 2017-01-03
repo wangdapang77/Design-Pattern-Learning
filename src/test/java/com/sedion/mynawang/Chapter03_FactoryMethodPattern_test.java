@@ -3,7 +3,7 @@ package com.sedion.mynawang;
 import com.sedion.mynawang.Chapter03_FactoryMethodPattern.*;
 
 /**
- * 工厂方法
+ * 工厂方法测试
  * @auther mynawang
  * @create 2016-12-30 10:35
  */
