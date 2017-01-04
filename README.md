@@ -87,6 +87,11 @@ Design-Pattern-Learning/
 │   │   ├── Father                                  引用类     
 │   │   └── Person                                  原型类
 ├── Chapter07_AdapterPattern（适配器模式）
+│   ├── Target                                      目标接口
+│   ├── ConcreteTarget                              目标接口实现
+│   ├── Adaptee                                     被适配类
+│   ├── ClassAdapter                                类适配器（继承父类特性）
+│   ├── ObjAdapter                                  对象适配器（委托）
 ├── Chapter08_DecoratorPattern（装饰模式）
 ├── Chapter09_ProxyPattern（代理模式）
 ├── Chapter10_BridgePattern（桥接模式）
