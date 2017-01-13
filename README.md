@@ -91,8 +91,13 @@ Design-Pattern-Learning/
 │   ├── ConcreteTarget                              目标接口实现
 │   ├── Adaptee                                     被适配类
 │   ├── ClassAdapter                                类适配器（继承父类特性）
-│   ├── ObjAdapter                                  对象适配器（委托）
+│   └── ObjAdapter                                  对象适配器（委托）
 ├── Chapter08_DecoratorPattern（装饰模式）
+│   ├── Component                                   抽象构件
+│   ├── ConcreteComponent                           具体构件
+│   ├── Decorator                                   抽象装饰类
+│   ├── ConcreteDecoratorA                          具体装饰类A
+│   └── ConcreteDecoratorB                          具体装饰类B
 ├── Chapter09_ProxyPattern（代理模式）
 ├── Chapter10_BridgePattern（桥接模式）
 ├── Chapter11_FacadePattern（外观模式）
@@ -100,8 +105,7 @@ Design-Pattern-Learning/
 ├── Chapter13_CompositePattern（组合模式）
 ```
 
-
-### 技术交流
+ 
 
 博客地址：[http://mynawang.com][1]
 
