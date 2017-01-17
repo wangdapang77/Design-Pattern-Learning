@@ -99,6 +99,14 @@ Design-Pattern-Learning/
 │   ├── ConcreteDecoratorA                          具体装饰类A
 │   └── ConcreteDecoratorB                          具体装饰类B
 ├── Chapter09_ProxyPattern（代理模式）
+│   ├── Static_Proxy（静态代理）
+│   │   ├── Subject                                 接口类（真实、代理访问者公同的接口）
+│   │   ├── RealSubject                             真实访问类（真实访问对象/委托对象）
+│   │   └── ProxySubjcet                            代理类
+│   ├── Dynamic_Proxy（动态代理）
+│   │   ├── JdkProxy                                JDK动态代理类，类实现接口
+│   │   ├── CglibRealSubject                        普通类
+│   │   └── CglibProxy                              用Cglib对普通类做代理
 ├── Chapter10_BridgePattern（桥接模式）
 ├── Chapter11_FacadePattern（外观模式）
 ├── Chapter12_FlyweightPattern（享元模式）

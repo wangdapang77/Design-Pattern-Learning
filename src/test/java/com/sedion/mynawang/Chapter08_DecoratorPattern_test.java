@@ -6,6 +6,7 @@ import com.sedion.mynawang.Chapter08_DecoratorPattern.ConcreteDecoratorA;
 import com.sedion.mynawang.Chapter08_DecoratorPattern.ConcreteDecoratorB;
 
 /**
+ * 装饰器模式测试
  * @auther mynawang
  * @create 2017-01-13 11:22
  */
